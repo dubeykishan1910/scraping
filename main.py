@@ -51,7 +51,7 @@ while (True):
 
     break
 
-
+#Creating .CSV File
 df=pd.DataFrame({"Product Name":Product_name,"Prices":Prices,"Rating":Reviews})
 print(df)
 df.to_csv("Amazon.csv",index=False)
